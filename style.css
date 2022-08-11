@@ -2,6 +2,7 @@
 {
     display: flex;
     flex-direction: column;
+    box-sizing: border-box;
 }
 /*Header Container*/
 .header-container
@@ -75,7 +76,7 @@ a
     flex-direction: column;
     gap: 16px;
 }
-button
+.button1
 {
     background-color: #3882f6;
     color: #e5e7eb;
@@ -169,4 +170,56 @@ button
     font-size: 25px;
     font-weight: 800;
     color: #1f2937;
+}
+
+/*Call to action Container */
+
+.c2a-container
+{
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+.box1
+{
+    background-color: #3882f6;
+    color: #e5e7eb;
+    height: 80px;
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    
+   
+}
+.c2a
+{
+    width: 900px;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+}
+.text8
+{
+    font-weight: 800;
+    font-size: 25px;
+}
+.text9
+{
+    font-size: 20px;
+}
+.button2
+{
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-weight: 800;
+    border-radius: 10px;
+    height: 30px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border: 2px solid #e5e7eb
 }
