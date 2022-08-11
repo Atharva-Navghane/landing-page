@@ -37,12 +37,11 @@ a
 
 /*Description Container*/
 
-img
+.placeholder
 {
     width: 450px;
     height: auto;
 }
-
 .description-container
 {
     background-color: #1f2937;
@@ -51,7 +50,6 @@ img
     height: 400px;
     align-items: center;
 }
-
 .description
 {
     display: flex;
@@ -59,28 +57,24 @@ img
     padding: 16px;
     width: 900px;
 }
-
 .text2
 {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
 }
-
 .text3
 {
     font-size: 18px;
     color:  #e5e7eb;
 
 }
-
 .content
 {
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
-
 button
 {
     background-color: #3882f6;
@@ -93,3 +87,56 @@ button
     
 }
 
+/*Information Container*/
+
+.information-container
+{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.information
+{
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    align-items: center;
+    gap: 16px;
+}
+
+.images
+{
+    display: flex;
+    justify-content: space-between;
+    
+    gap: 8px;
+    padding: 8px;
+    
+}
+
+.pic
+{
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882f6;
+    border-radius: 20px;
+    
+}
+
+.text4
+{
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+}
+
+.part1,
+.part2,
+.part3,
+.part4
+{   display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
