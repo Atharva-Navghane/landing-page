@@ -7,6 +7,8 @@
 .header-container
 {
     background-color: #1f2937;
+    display: flex;
+    justify-content: center;
     
 }
 .header
@@ -14,6 +16,7 @@
     display: flex;
     justify-content: space-between;
     padding: 16px;
+    width: 900px;
 }
 .links
 {
@@ -31,3 +34,62 @@ a
     color: #f9faf8;
     font-weight: 800;
 }
+
+/*Description Container*/
+
+img
+{
+    width: 450px;
+    height: auto;
+}
+
+.description-container
+{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    align-items: center;
+}
+
+.description
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    width: 900px;
+}
+
+.text2
+{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.text3
+{
+    font-size: 18px;
+    color:  #e5e7eb;
+
+}
+
+.content
+{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+button
+{
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-weight: 800;
+    border-radius: 10px;
+    height: 30px;
+    padding-left: 24px;
+    padding-right: 24px;
+    
+}
+
